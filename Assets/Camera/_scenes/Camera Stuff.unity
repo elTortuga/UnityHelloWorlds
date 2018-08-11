@@ -220,6 +220,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d29ba28bd5caaed429838de8bac7be72, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &531710455 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: d29ba28bd5caaed429838de8bac7be72, type: 2}
+  m_PrefabInternal: {fileID: 531710449}
 --- !u!1001 &893874581
 Prefab:
   m_ObjectHideFlags: 0
@@ -338,7 +342,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1901929921}
   m_LocalRotation: {x: 0, y: -0.06087441, z: 0, w: 0.99814546}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 3.1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -355,7 +359,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d511c83023854dc7b308c5d277a99fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1901929925}
-  camera: {fileID: 1901929924}
+  target: {fileID: 531710455}
+  mainCamera: {fileID: 1901929924}
   distance: 20
   heightDifference: 4
+  radius: 8
+  rotationSpeed: 0.5
