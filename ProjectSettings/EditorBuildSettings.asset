@@ -6,14 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/GameRunThrough/_Scenes/Splash_Loading.unity
-    guid: aa4b65789493e4a6fa65ddf9b4baeca5
-  - enabled: 1
-    path: Assets/GameRunThrough/_Scenes/MainMenu.unity
-    guid: 0ea694eb8ade744d49b4941d34bb4d16
-  - enabled: 1
-    path: Assets/GameRunThrough/_Scenes/Settings.unity
-    guid: 6b09428cc636a4cd3929eb4decac916e
-  - enabled: 1
-    path: Assets/GameRunThrough/_Scenes/Game.unity
-    guid: 8def54045aab34ce1a3438c81d77a62a
+    path: Assets/VirtualJoyStick/_Scenes/DualJoystick.unity
+    guid: b959fd9ee25304418b693c2ef20e9993
